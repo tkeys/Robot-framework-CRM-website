@@ -8,7 +8,7 @@ Library    SeleniumLibrary
 ${SITE_URL} =    https://automationplayground.com/crm
 ${BROWSER} =    chrome
 ${EMAIL_ADDY} =    musabaca@yahoo.com
-${PASSWORD} =    adekunle
+${PASSWORD} =    adekunzy
 
 
 *** Test Cases ***
@@ -41,9 +41,9 @@ Create new customer
 
     #add new customer
     input text                  xpath= //*[@id="EmailAddress"]    ${EMAIL_ADDY}
-    input text                  xpath = //*[@id="FirstName"]  Theophilus
-    input text                  xpath = //*[@id="LastName"]   Adejumo
-    input text                  xpath = //*[@id="City"]       Ilorin
+    input text                  xpath = //*[@id="FirstName"]  Thadex
+    input text                  xpath = //*[@id="LastName"]   Adejoke
+    input text                  xpath = //*[@id="City"]       Ibadan
     click element               //*[@id="StateOrRegion"]
     sleep                       3s
     select from list by value    id=StateOrRegion   TX
