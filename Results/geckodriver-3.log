@@ -1,0 +1,10 @@
+1671007721049	geckodriver	INFO	Listening on 127.0.0.1:60995
+1671007724120	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileZFzLVr"
+1671007724658	Marionette	INFO	Marionette enabled
+1671007724666	Marionette	INFO	Listening on port 61004
+1671007725820	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileZFzLVr\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationplayground.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationplayground.com."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1671009710479	Marionette	INFO	Stopped listening on port 61004

@@ -1,0 +1,11 @@
+1671009748858	geckodriver	INFO	Listening on 127.0.0.1:51728
+1671009751904	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilemTOlhm"
+1671009752481	Marionette	INFO	Marionette enabled
+1671009752490	Marionette	INFO	Listening on port 51737
+1671009753450	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilemTOlhm\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationplayground.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationplayground.com."
+console.error: "Unable to find target with innerWindowId:6442450947"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1671009854215	Marionette	INFO	Stopped listening on port 51737

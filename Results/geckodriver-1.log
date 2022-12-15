@@ -1,0 +1,8 @@
+1671007319919	geckodriver	INFO	Listening on 127.0.0.1:60685
+1671007322995	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilenyNapE"
+1671007323851	Marionette	INFO	Marionette enabled
+1671007323862	Marionette	INFO	Listening on port 60695
+1671007324568	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilenyNapE\\search.json.mozlz4", (void 0)))
+1671007399604	Marionette	INFO	Stopped listening on port 60695
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
