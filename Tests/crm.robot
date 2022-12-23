@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation    Testing the crm site from Udemy Robot framework course
-#Library    SeleniumLibrary
+
 Resource    ../Resources/Common_functionality.robot
 Resource    ../Resources/crm_app.robot
 
