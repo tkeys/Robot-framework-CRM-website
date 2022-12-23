@@ -2,8 +2,7 @@
 
 Library    SeleniumLibrary
 
-
-
+Resource    ../Resources/my_variables.robot
 
 *** Keywords ***
 User login
